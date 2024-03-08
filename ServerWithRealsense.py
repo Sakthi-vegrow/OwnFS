@@ -47,7 +47,7 @@ def send_video(client_socket):
         client_socket.close()
 
 def main():
-    server_address = ('192.168.66.179', 12345)
+    server_address = ('192.168.66.217', 12345)
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind(server_address)
     server_socket.listen(1)
